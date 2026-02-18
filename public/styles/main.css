@@ -1,0 +1,50 @@
+body {
+  min-height: 100vh;
+  background-color: black;
+  color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  font-family: "Codystar", sans-serif;
+  font-weight: 400;
+  padding: 1rem; /* prevent text touching screen edges on mobile */
+}
+
+/* Quote */
+h1 {
+  font-weight: 800;
+  margin-bottom: 2rem;
+  max-width: 70%; /* text won’t stretch too far */
+  font-size: clamp(1.5rem, 3vw, 3rem); /* responsive font size */
+  line-height: 1.3;
+}
+
+/* Image with neon glow */
+img {
+  width: 50vh;
+  max-width: 90%;
+  aspect-ratio: 1 / 1;
+  border-radius: 15px;
+
+  border: 2px solid #00f0ff;
+  box-shadow:
+    0 0 5px #00f0ff,
+    0 0 10px #00f0ff,
+    0 0 20px #00f0ff,
+    0 0 40px #00f0ff;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Anime/character text */
+p {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  margin-top: 1rem;
+}
