@@ -1,21 +1,17 @@
 # Anime Quotes
 
-A web page that shows random anime quotes with neon-glowing images.
+A web page that shows random anime quotes with a neon-glowing image.
 
 ## Features
 
-- Fetches random quotes from the AnimeChan API
+- Random quote from the AnimeChan API
 - Backup quote if API fails
 - Neon-glowing anime images
 - Responsive text and layout
 
-## Screenshot
+## How to run
 
-![Anime Quotes Screenshot](public/images/screenshot.png)
-
-## How to run locally
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/username/anime-quotes.git
-   ```
+1. Clone the repo
+2. Run `npm install`
+3. Run `node index.js`
+4. Open `http://localhost:3000` in your browser
